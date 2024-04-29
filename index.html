@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Web Hosting">
+    <meta name="author" content="Microcodes">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
+
+    <title>Microcodes</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/templatemo-host-cloud.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+
+  </head>
+
+  <body>
+
+    
+    <!-- ***** Preloader Start ***** -->
+    <div id="preloader">
+        <div class="jumper">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>  
+    <!-- ***** Preloader End ***** -->
+
+    <!-- Header -->
+    <header class="">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="index.html"><h2>Micro <em>Codes</em></h2></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home
+                  <span class="sr-only">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="services.html">Our Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+          <div class="functional-buttons">
+            <ul>
+              <li><a href="login.html">Log in</a></li>
+              <li><a href="sign_up.html">Sign Up</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+	
+    <!--end of Header -->
+
+
+
+    <!-- Page Content -->
+    <!-- Banner Starts Here -->
+    <div class="banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 offset-md-2">
+            <div class="header-text caption">
+              <h2>Search your domain</h2>
+              <div id="search-section">
+              	<form id="suggestion_form" name="gs" method="get" action="#">
+                <div class="searchText">
+                  
+                  <input type="text" name="q" class="searchText" placeholder=" Enter your domain here... " autocomplete="on">
+                  <ul>
+				   <li><label><input type="checkbox" name="ext_net" value="1"><span>.online <em>($6/yr)</em></span></label></li>
+				    <li><label><input type="checkbox" name="ext_net" value="1"><span>.co.za <em>($10/yr)</em></span></label></li>
+                    <li><label><input type="checkbox" name="ext_com" value="1"><span>.com <em>($20/yr)</em></span></label></li>
+                    <li><label><input type="checkbox" name="ext_org" value="1"><span>.org <em>($25/yr)</em></span></label></li>
+                   
+                  </ul>
+                </div>
+                    <input type="button" name="results" class="main-button" data-toggle="modal" data-target="#confirmModal"     value="Search Now">
+                 </form>
+               <div class="advSearch_chkbox">
+               </div>
+              </div>
+            </div>
+          </div>
+		  
+		                   <!-- Modal -->
+      <div class="modal fade" id="confirmModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style=" margin-top:100px;">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header" style="background-color:darkblue;color:white;border-color:white;"><h5>Available</h5>
+              <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span> <span class="sr-only">Close</span></button>
+             
+            </div>
+			
+			<div class="modal-body" style=" height:300px; overflow-y:auto;" > <form role="form" id="templatemo-preferences-form">
+                <div class="row">
+                  <div class=" margin-bottom-15" id="domain_results">
+				  
+				   <div style="padding:10px;  ">
+                    <h5>keniasnyandoro.com</h5>
+                    <h4 class="modal-title" id="myModalLabel">$ 19.00</h4>  
+                    <button   style="border-radius:5px;padding:10px;" onclick="add_to_cart()">Add to cart</button> 
+			<a href="#"  style="background-color:blue;color:white;border:none;padding:10px;" onclick="check_domain()">Buy Now</a>
+					<hr  style="background-color:black; ">		
+</div>
+              
+					  			 
+                  </div>
+				  </div>
+				  </div>
+			
+			
+            <div class="modal-footer">
+              <a href="#" class="btn btn-primary">Cart</a>
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+ <!--End of Modal -->
+		  
+		  
+        </div>
+      </div>
+    </div>
+    <!-- Banner Ends Here -->
+
+
+    <!-- Services Starts Here -->
+    <div class="services-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-heading">
+             
+              <h2>Services we provide</h2>
+              <p>Microcodes is a professional software enginnering company which provides satisfying various technological services. We specialize in web hosting ,security and development .We beleve in loyalty </p>
+            </div>
+          </div>
+		  
+       <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="service-item">
+              <i class="fa fa-database"></i>
+              <h4>Web Hosting</h4>
+              <p>Get a free website ,free digital marketing and  web management service when you choose our hosting plan .</p>
+			  <a rel="nofollow" href="#webhosting" target="_parent">Read more</a>
+            </div>
+          </div>
+       
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="service-item">
+              <i class="fa fa-shield"></i>
+              <h4>Cyber Security</h4>
+              <p>Microcodes provide enhanced cyber security to ensure your organisational information safety  </p>
+			  <a rel="nofollow" href="#cybersecurity" target="_parent">Read more</a> 
+            </div>
+          </div>
+		  
+		   <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="service-item">
+              <i class="fa fa-table"></i>
+              <h4>Data Science & Analytics  </h4>
+              <p>We extract meaningful information from structured and unstructured data to optimize business management. </p>
+			   <a rel="nofollow" href="contact.html" target="_parent">Read more</a> 
+            </div>
+          </div>
+		  
+		        <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="service-item">
+              <i class="fa fa-globe"></i>
+              <h4>Web & Software Development</h4>
+              <p>Get a free website ,free digital marketing and  web management service when you choose our hosting plan .Subscribe now</p>
+			   <a rel="nofollow" href="contact.html" target="_parent">Read more</a>
+            </div>
+          </div>
+		  
+		     <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="service-item">
+              <i class="fa fa-bullhorn"></i>
+              <h4>Digital Marketing</h4>
+              <p>Reach millions of customers and boost your business perfomance with our effective markerting plans and campains. </p>
+			  <a rel="nofollow" href="#digitalmarketing" target="_parent">Read more</a> 
+            </div>
+          </div>
+		  
+		  	   <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="service-item">
+              <i class="fa fa-support"></i>
+              <h4>Technical Support </h4>
+              <p>Microcodes codes offers technological support in all operational problems that arise in computers ,networks and softwares   
+ <a rel="nofollow" href="contact.html" target="_parent">Read more</a> </p>
+            </div>
+          </div>
+		  
+        </div>
+      </div>
+    </div>
+    <!-- Services Ends Here -->
+
+
+    <!-- Pricing Starts Here -->
+    <div class="pricing-section" id="webhosting">
+      <div class="background-image-pricing">
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 offset-md-2">
+            <div class="section-heading">
+              <h2>Cloud Hosting Plans</h2>
+             
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="pricing-item">
+              <h4>Basic Hosting</h4>
+              <div class="price">
+                <h6>$50</h6>
+                <span>yearly</span>
+              </div>
+              
+              <div class="dev"></div>
+              <ul> 
+                <li><i class="fa fa-check"></i>3 websites</li> 
+                <li><i class="fa fa-check"></i>5 mysql databases</li>
+				 <li><i class="fa fa-check"></i>10 GB Storage Space</li>
+                <li><i class="fa fa-check"></i>Basic Managed Panel</li>
+                <li><i class="fa fa-check"></i>24/7 Fast Support</li>
+                <li><i class="fa fa-check"></i>Free Website Upgrades </li>
+              </ul>
+              <a href="sign_up.html" class="main-button">Start Plan</a>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="pricing-item">
+              <h4>Professional</h4>
+              <div class="price price-gradient">
+                <h6>$100</h6>
+                <span>yearly</span>
+              </div>
+         
+              <div class="dev"></div>
+              <ul>
+                <li><i class="fa fa-check"></i>5 websites</li>
+                <li><i class="fa fa-check"></i>10 mysql databases</li>
+				<li><i class="fa fa-check"></i>20 GB Storage Space</li>
+                <li><i class="fa fa-check"></i>Fully Managed Panel</li>
+                <li><i class="fa fa-check"></i>24/7 Support</li>
+                <li><i class="fa fa-check"></i>free Digital Marketing</li>
+               
+              </ul>
+              <a href="sign_up.html" class="gradient-button">Select Plan</a>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="pricing-item">
+              <h4>Personal Server</h4>
+              <div class="price">
+                <h6>$250</h6>
+                <span>yearly</span>
+              </div>
+         
+              <div class="dev"></div>
+              <ul>
+                <li><i class="fa fa-check"></i>Server configuration </li>
+                <li><i class="fa fa-check"></i>Free domain name</li>
+				<li><i class="fa fa-check"></i>database configuration</li>
+                <li><i class="fa fa-check"></i>Free SSL certificates</li>
+                <li><i class="fa fa-check"></i>24/7 Support</li>
+                <li><i class="fa fa-check"></i>free Digital Marketing</li>
+              </ul>
+              <a href="sign_up.html" class="main-button">Take it now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Pricing Ends Here -->
+
+
+    <!-- Features Starts Here -->
+    <div class="features-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-heading">
+             
+              <h2>Cloud Features</h2>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="feature-item">
+              <div class="icon">
+                <img src="assets/images/feature-01.png" alt="">
+              </div>
+              <h4>Load Balanced</h4>
+              <p>Microcodes offer distributed traffic across our multiple servers to ensure scalabity and availability of web applications</p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="feature-item">
+              <div class="icon">
+                <img src="assets/images/feature-01.png" alt="">
+              </div>
+              <h4>99.9% Uptime Guaranteed</h4>
+              <p>All our web hosting is backed by a 99.9% Uptime Guarantee SLA. We have a proven track record in stability, security and reliability</p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="feature-item">
+              <div class="icon">
+                <img src="assets/images/feature-01.png" alt="">
+              </div>
+              <h4>Top Reliability</h4>
+              <p>We  use the  best in SuperMicro hardware. All Hypervisors are configured with Dual AMD EPYC Processors, 512 GB DDR4 RAM and Redundant Power Supplies.</p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="feature-item">
+              <div class="icon">
+                <img src="assets/images/feature-01.png" alt="">
+              </div>
+              <h4>High Security</h4>
+              <p>Monitoring for 24 hours a day, 7 days a week using sophisticated monitoring software which supervises all aspects of our hosting infrastructure.</p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="feature-item">
+              <div class="icon">
+                <img src="assets/images/feature-01.png" alt="">
+              </div>
+              <h4>Quality Hardwares</h4>
+              <p>Our web hosting is done in carrier grade Supermicro hardware and utilizes Intel Scablable 2nd Gen processors and Super Fast Enterprise SSD drives in raid 10</p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="feature-item">
+              <div class="icon">
+                <img src="assets/images/feature-01.png" alt="">
+              </div>
+              <h4>Network Solutions</h4>
+              <p>Our web hosting servers are backed up on a daily basis. This ensures that if any problem occur on your website, you can simply roll it back to a previous working version</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Features Ends Here -->
+
+
+ <!-- Pricing Starts Here -->
+    <div class="pricing-section" id="cybersecurity">
+      <div class="background-image-pricing">
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 offset-md-2">
+            <div class="section-heading">
+              <h2>Cyber Security Plans</h2>
+             
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="pricing-item">
+              <h4>Basic Security Plan</h4>
+              <div class="price">
+                <h6>$150</h6>
+                <span>monthly</span>
+              </div>
+              
+              <div class="dev"></div> 
+              <ul> 
+                <li><i class="fa fa-check"></i>DDoS Protection</li> 
+                <li><i class="fa fa-check"></i>Vulnerability Testing</li>
+				 <li><i class="fa fa-check"></i>Penetration Testing</li>
+                <li><i class="fa fa-check"></i>Security Awareness Training</li>
+                <li><i class="fa fa-check"></i>24/7 Fast Support</li>
+                <li><i class="fa fa-check"></i>Free Website Upgrades </li>
+              </ul>
+              <a href="sign_up.html" class="main-button">Start Plan</a>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="pricing-item">
+              <h4>Standard Security Plan</h4>
+              <div class="price price-gradient">
+                <h6>$250</h6>
+                <span>monthly</span>
+              </div>
+         
+              <div class="dev"></div>
+              <ul>
+                <li><i class="fa fa-check"></i>Visitor Tracking Report</li>
+                <li><i class="fa fa-check"></i>Access Monitoring</li>
+				<li><i class="fa fa-check"></i>Vulnerability Testing</li>
+                <li><i class="fa fa-check"></i>Software Updates</li>
+                <li><i class="fa fa-check"></i>Remote Pc Management</li>
+                <li><i class="fa fa-check"></i>Daily Traffic Report</li>
+               
+              </ul>
+              <a href="sign_up.html" class="gradient-button">Select Plan</a>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="pricing-item">
+              <h4>Pro Security Plan</h4>
+              <div class="price">
+                <h6>$350</h6>
+                <span>monthly</span>
+              </div>
+         
+              <div class="dev"></div>
+              <ul>
+                <li><i class="fa fa-check"></i>Full Network Security</li>
+                <li><i class="fa fa-check"></i>Hardware & Systems security</li>
+				<li><i class="fa fa-check"></i>Information Security</li>
+                <li><i class="fa fa-check"></i>Software Security</li>
+                <li><i class="fa fa-check"></i>24/7 Support</li>
+                
+                <li><i class="fa fa-check"></i>free Digital Marketing</li>
+              </ul>
+              <a href="sign_up.html" class="main-button">Take it now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Pricing Ends Here -->
+
+
+ <!-- Pricing Starts Here -->
+    <div class="pricing-section" id="digitalmarketing">
+      <div class="background-image-pricing">
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 offset-md-2">
+            <div class="section-heading">
+              <h2>Digital Marketing Plans</h2>
+             
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="pricing-item">
+              <h4>Small business Plan</h4>
+              <div class="price">
+                <h6>$500</h6>
+                <span>monthly</span>
+              </div>
+              
+              <div class="dev"></div> 
+              <ul> 
+			       <li><i class="fa fa-check"></i>Free Visitor Monitoring App </li>
+				   <li><i class="fa fa-check"></i>Free flyers, posters, video making etc</li>
+				    <li><i class="fa fa-check"></i>Social Media ads 5000 campaigns</li>
+					<li><i class="fa fa-check"></i>Email Markerting 1000 ads</li>	
+						 <li><i class="fa fa-check"></i>Content Marketing (10 web pages)</li>
+                <li><i class="fa fa-check"></i>Video Marketing (3 videos)</li>
+                <li><i class="fa fa-check"></i>Referral Marketing</li>
+				    	 <li><i class="fa fa-check"></i>Display Marketing (5 websites)</li>
+                <li><i class="fa fa-check"></i>Free Mobile App</li>
+                <li><i class="fa fa-check"></i>more than 120 web visitors</li> 
+						
+               
+			
+                
+              </ul>
+              <a href="sign_up.html" class="main-button">Start Plan</a>
+            </div>
+          </div>
+		  
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="pricing-item">
+              <h4>Basic Business Plan</h4>
+              <div class="price price-gradient">
+                <h6>$1000</h6>
+                <span>monthly</span>
+              </div>
+         
+              <div class="dev"></div>
+              <ul>
+        	  <li><i class="fa fa-check"></i>Free Visitor Monitoring App </li>
+				   <li><i class="fa fa-check"></i>Free flyers, posters, video making etc</li>
+				    <li><i class="fa fa-check"></i>Social Media ads 10 000 campaigns</li>
+					<li><i class="fa fa-check"></i>Email Markerting 3000 ads</li>	
+						 <li><i class="fa fa-check"></i>Content Marketing (20 web pages)</li>
+                <li><i class="fa fa-check"></i>Video Marketing (5 videos)</li>
+                <li><i class="fa fa-check"></i>Referral Marketing</li>
+				    	 <li><i class="fa fa-check"></i>Display Marketing (10 websites)</li>
+                <li><i class="fa fa-check"></i>Mobile Marketing</li>
+                <li><i class="fa fa-check"></i>more than 400 web visitors</li>  
+               
+              </ul>
+              <a href="sign_up.html" class="gradient-button">Select Plan</a>
+            </div>
+          </div>
+		  
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="pricing-item">
+              <h4>Standard Business Plan</h4>
+              <div class="price">
+                <h6>$2500</h6>
+                <span>monthly</span>
+              </div>
+         
+              <div class="dev"></div>
+              <ul>
+               <li><i class="fa fa-check"></i>Free Visitor Monitoring App </li>
+				   <li><i class="fa fa-check"></i>Free flyers, posters, video making etc</li>
+				    <li><i class="fa fa-check"></i>Social Media ads 25 000 campaigns</li>
+					<li><i class="fa fa-check"></i>Email Markerting 5000 ads</li>	
+						 <li><i class="fa fa-check"></i>Content Marketing (25 web pages)</li>
+                <li><i class="fa fa-check"></i>Video Marketing (5 videos)</li>
+                <li><i class="fa fa-check"></i>Referral Marketing</li>
+				    	 <li><i class="fa fa-check"></i>Display Marketing (20 websites)</li>
+                <li><i class="fa fa-check"></i>Mobile Marketing</li>
+                <li><i class="fa fa-check"></i>more than 1000 web visitors</li> 
+              </ul>
+              <a href="sign_up.html" class="main-button">Take it now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Pricing Ends Here -->
+
+<BR><BR><BR><BR>
+    <!-- Footer Starts Here -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="footer-item">
+              <div class="footer-heading">
+                <h2>About Us</h2>
+              </div>
+              <p>Microcodes provide you quality web hosting with free web development and digital marketing</p>
+            </div>
+          </div>
+          
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="footer-item">
+              <div class="footer-heading">
+                <h2>Hosting Plans</h2>
+              </div>
+              <ul class="footer-list">
+			       <li><a href="#">Domain Nmes</a></li>
+                <li><a href="#webhosting">Basic Hosting</a></li>
+                <li><a href="#webhosting">Professional Hosting </a></li>
+                <li><a href="#webhosting">Personal Server </a></li>
+                <li><a href="contact.html">Special Solutions</a></li>
+              </ul>
+            </div>
+          </div>
+          
+          
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="footer-item">
+              <div class="footer-heading">
+                <h2>Useful Links</h2>
+              </div>
+              <ul class="footer-list">
+                <li><a href="#digitalmarketing">Digital Marketing</a></li>
+                <li><a href="#cybersecurity">Cyber Security</a></li>
+                <li><a href="contact.html">Software development</a></li>
+				  <li><a href="contact.html">Graphics Designing</a></li>
+			    	<li><a href="contact.html">Customer Support</a></li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="footer-item">
+              <div class="footer-heading">
+                <h2>More Information</h2>
+              </div>
+              <ul class="footer-list">
+                <li>Phone: +27814097934</li>
+                
+                <li>Support: <a href="#">microcodesonline@gmail.com</a></li>
+                <li>Website: <a href="#">www.microcodes.co.za</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <div class="sub-footer">
+              <p>Copyright &copy; 
+				- Developed by <a rel="nofollow" href="microcodes.co.za">Microcodes</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer Ends Here -->
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="https://localhost/vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Additional Scripts -->
+    <script src="assets/js/custom.js"></script>
+    <script src="assets/js/owl.js"></script>
+    <script src="assets/js/accordions.js"></script>
+ <script src="chk_dmn.js"></script>
+ 
+ 
+    <script language = "text/Javascript"> 
+      cleared[0] = cleared[1] = cleared[2] = 0; //set a cleared flag for each field
+      function clearField(t){                   //declaring the array outside of the
+      if(! cleared[t.id]){                      // function makes it static and global
+          cleared[t.id] = 1;  // you could use true and false, but that's more typing
+          t.value='';         // with more chance of typos
+          t.style.color='#fff';
+          }
+      }
+    </script>
+
+  </body>
+</html>
